@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ba66bcf-c019-4c09-924d-451b2d036b7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IDN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,15 +36,22 @@
     "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.IDN">
-    <configuration name="IDN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Problem1">
+    <configuration name="IDN" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IDN" />
       <module name="Weeks Days Hours" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WDH" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Problem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem1" />
+      <module name="Weeks Days Hours" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WDH" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WDH" />
       <module name="Weeks Days Hours" />
       <method v="2">
@@ -53,8 +60,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IDN" />
-        <item itemvalue="Application.WDH" />
+        <item itemvalue="Application.Problem1" />
       </list>
     </recent_temporary>
   </component>
