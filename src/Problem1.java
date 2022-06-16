@@ -5,10 +5,7 @@ public class Problem1
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        int a;
-        int b;
-        int c;
-        int d;
+        int a,b,c,d;
 
         System.out.print("Enter a: ");
         a = scan.nextInt();
@@ -28,8 +25,8 @@ public class Problem1
         double sum3 = divide(b,d);
         System.out.println("DIVISION:\n" + b + " / " + d + " = " + sum3);
 
-        int sum4 = subtract(c,b);
-        System.out.println("SUBTRACT:\n" + c + " - " + b + " = " + sum4);
+        int sum4 = subtract(b,c);
+        System.out.println("SUBTRACT:\n" + b + " - " + c + " = " + sum4);
     }
 
         //ADDITION METHOD
@@ -51,9 +48,9 @@ public class Problem1
         return result;
         }
         //SUBTRACTION METHOD
-        public static int subtract(int c, int b)
+        public static int subtract(int b, int c)
         {
-        int result = (c - b);
+        int result = (b - c);
         return result;
         }
 
