@@ -16,15 +16,18 @@ public class Problem1
         System.out.print("Enter d: ");
         d = scan.nextInt();
 
+        //invoking addition method
         int sum1 = sum(a,b,c,d);
         System.out.println("ADDITION:\n" + a + " + " + b + " + " +  c + " + " + d + " = " + sum1);
 
+        //invoking multiplication method
         int sum2 = multiply(a,b,d);
         System.out.println("MULTIPLICATION:\n" + a + " * " + b + " * " + d +  " = " + sum2);
 
+        //invoking division method
         double sum3 = divide(b,d);
         System.out.println("DIVISION:\n" + b + " / " + d + " = " + sum3);
-
+        
         int sum4 = subtract(b,c);
         System.out.println("SUBTRACT:\n" + b + " - " + c + " = " + sum4);
     }

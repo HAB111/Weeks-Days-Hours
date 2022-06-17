@@ -2,14 +2,15 @@ import java.util.Scanner;
 public class Loops {
 
     public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+
         int n;
 
-        Scanner scan=new Scanner(System.in);
         System.out.print("Enter an integer greater than 1: ");
-
         n=scan.nextInt();                   // enter input
 
-        int i,s=0;
+        int i;
+        int s=0;
 
         for(i=1;i<=n;i++)
         {
